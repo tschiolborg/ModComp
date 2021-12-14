@@ -25,6 +25,6 @@ Where *X<sub>t,i</sub>* is observed and indicates number of observed spikes in t
 
 *C<sub>t</sub>* is either 0, 1 or and unobserved. When 2 it indicates parallel processing, meaning each neuron has probability 1/2 of attending stimuli one and prob. 1/2 of attending stimuli two. When 0 or 1 it indicates serial processing, where most neurons are either attending to respectivly stimuli 0 or 1.
 
-The goal is to capture both forms of processing. Look at the *Reduced_version.ipynb* Notebook for more details of the project.
-
+The goal is to capture both forms of processing. Look at the *Reduced_version.ipynb* Notebook for more details of the project. The data can be represented in the figure below. The solid blue points represents mean value of *X* at time *t* (time is 1st-axis), meaning that for each time step we have computed the mean value of spikes among all neurons. The transparent points represents *Z* and *C* at each time step, such that when the points on the 2nd-axis is 0, then the mean value of *X* indicates *Z=0*, while when the points are >0 then the mean value of *X* indicates *Z=1*. The points are colored according to the value of *C*.
+![alt text](https://github.com/tschiolborg/ModComp/blob/main/example_data.png?raw=true)
 
