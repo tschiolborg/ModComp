@@ -25,6 +25,6 @@ Where *X<sub>t,i</sub>* is observed and indicates number of observed spikes in t
 
 *C<sub>t</sub>* is either 0, 1 or and unobserved. When 2 it indicates parallel processing, meaning each neuron has probability 1/2 of attending stimuli one and prob. 1/2 of attending stimuli two. When 0 or 1 it indicates serial processing, where most neurons are either attending to respectivly stimuli 0 or 1.
 
-The goal is to capture both forms of processing. Look at the Reduced_version Notebook for more details of the project.
+The goal is to capture both forms of processing. Look at the *Reduced_version.ipynb* Notebook for more details of the project.
 
 
