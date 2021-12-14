@@ -17,4 +17,4 @@
 - An inference algorithm was developed to predict hidden varibles, which could be viewed as either a variable elimination or message passing algorithm.
 - An EM algorithm was created with the inference algorithm as expectation step, since the inference algorithm requires unknown latent parameters to predict correctly. 
 
-
+![alt text](https://github.com/tschiolborg/ModComp/blob/main/hmm.png?raw=true)
